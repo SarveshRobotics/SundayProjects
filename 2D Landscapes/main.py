@@ -104,7 +104,7 @@ parser.add_argument("-t", "--theme", type=str, help="theme for colour palette")
 args = parser.parse_args()
 
 
-# Simpler approach using openCV
+# Simpler approach
 def draw_image(layers, width, height):
 	blank_image = np.zeros((height, width, 3), np.uint8)
 
@@ -122,6 +122,7 @@ def draw_image(layers, width, height):
 
 	for i, layer in enumerate(layers):
 		try:
+			# Create line art
 			for pixel in layer:
 				blank_image[height - int(pixel[1]), int(pixel[0])] = color_dict[str(i)]
 				y = height - int(pixel[1])

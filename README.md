@@ -8,8 +8,8 @@ I am now a Roboticist! I recently graduated with a Masters degree from the Unive
 I will be adding to this repository, small projects that can apart from utilizing technical concepts make enthusiasts like me realize how fun learning can be! So here is the list of projects I intend to complete:
 
 - [x] *2D Landscapes*
-- [ ] Creating Avatars - AR
-- [ ] Building an Autonomous Rpi Drone
+- [ ] Creating Avatars - AR (Halfway Through it, will be posting soon)
+- [x] *Virtual Canvas*
 - [ ] . . .
 
 Stay Tuned!
